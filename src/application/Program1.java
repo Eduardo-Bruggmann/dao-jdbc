@@ -8,7 +8,7 @@ import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
 
-public class Program {
+public class Program1 {
 
 	public static void main(String[] args) {
 		
@@ -42,7 +42,6 @@ public class Program {
 		System.out.println("Update completed!");
 		
 		System.out.println("\n=== TEST 6: seller delete =====");
-		seller = sellerDao.findById(1);
 		sellerDao.deleteById(101);
 		System.out.println("Deleted completed!");
 	}
